@@ -4,7 +4,6 @@ import cors from "cors";
 import compress from "compression";
 import cookieParser from "cookie-parser";
 import helmet from "helmet";
-
 import models,{sequelize} from "./models/init-models"
 import routes from "./routes/indexRoute"
 
